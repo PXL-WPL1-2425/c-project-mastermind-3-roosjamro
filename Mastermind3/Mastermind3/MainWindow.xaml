@@ -9,7 +9,7 @@
     <StackPanel Margin="20">
 
         <StackPanel.Background>
-            <ImageBrush ImageSource="C:\Users\roosj\source\repos\MastermindPE2\MastermindPE2\images\WISH LIST.jpeg" Opacity="0.2"/>
+            <ImageBrush ImageSource="/Images/WISH LIST.jpeg" Opacity="0.2"/>
         </StackPanel.Background>
 
         <DockPanel>

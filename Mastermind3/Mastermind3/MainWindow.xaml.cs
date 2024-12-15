@@ -34,6 +34,8 @@ namespace Mastermind3
 
         private List<string> playerNames = new List<string>();
 
+        int playerIndex = 0;
+
         //DispatcherTimer timer;
         //TimeSpan elapsedTime;
         //DateTime clicked;
@@ -88,7 +90,8 @@ namespace Mastermind3
                 {
                     MessageBoxResult messageBoxResult = MessageBox.Show($"Je hebt gewonnen!\n" +
                         $"Je hebt {pogingen} pogingen nodig gehad\n" +
-                        $"De code was {string.Join(", ", secretCode)}", "Game over", MessageBoxButton.OK, MessageBoxImage.Information);
+                        $"De code was {string.Join(", ", secretCode)}\n" +
+                        $"Nu is {playerNames} aan de beurt.", "Game over", MessageBoxButton.OK, MessageBoxImage.Information);
           
                 }
             }
